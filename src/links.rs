@@ -61,7 +61,7 @@ impl Links {
 					crate_ver.cloned(),
 					lib_name.clone()
 				);
-				let crate_ver = if crate_name  == input.crate_name {
+				let crate_ver = if crate_name == input.crate_name {
 					None
 				} else {
 					crate_ver
